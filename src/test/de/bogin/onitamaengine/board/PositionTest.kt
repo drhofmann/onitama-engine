@@ -4,11 +4,11 @@ import de.bogin.onitamaengine.extensions.minus
 import de.bogin.onitamaengine.extensions.plus
 import de.bogin.onitamaengine.movement.Move
 import de.bogin.onitamaengine.movement.CobraCard
+import de.bogin.onitamaengine.movement.MantisCard
 import de.bogin.onitamaengine.movement.MoveVector
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.*
-import org.junit.jupiter.api.Assertions.assertFalse
-import org.junit.jupiter.api.Assertions.assertTrue
+import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
 
@@ -92,10 +92,12 @@ internal class PositionTest {
         val moves = mutableListOf<Move>()
         standardPosition.pieces[PlayerColor.BLUE]!!.forEach {
             moves.add(Move(startSquare = it.square, destinationSquare = it.square.minus(Pair(1,1)), activePlayer = it.owner))
+            moves.add(Move(startSquare = it.square, destinationSquare = it.square.minus(Pair(-1,1)), activePlayer = it.owner))
         }
-        val expectedMoves = moves.filter {it.destinationSquare.first>0}.toList()
+        val expectedMoves = moves.filter { it.destinationSquare.first in 1..5 }.toList()
         val createdMoves = standardPosition.generateValidMoves()
-        assertThat(createdMoves, equalTo(expectedMoves))
+        assertTrue(createdMoves.containsAll(expectedMoves))
+        assertTrue(expectedMoves.containsAll(createdMoves))
     }
 
     @Test
@@ -129,7 +131,7 @@ internal class PositionTest {
         )
         standardPosition =  Position (
             boardConfiguration = boardConfiguration,
-            movementOptions = mapOf(PlayerColor.RED to listOf(CobraCard()), PlayerColor.BLUE to listOf(CobraCard())),
+            movementOptions = mapOf(PlayerColor.RED to listOf(CobraCard()), PlayerColor.BLUE to listOf(MantisCard())),
             activePlayer = PlayerColor.RED,
             pieces = mapOf(PlayerColor.BLUE to bluePieces, PlayerColor.RED to redPieces)
         )
