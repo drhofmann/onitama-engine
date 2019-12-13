@@ -1,4 +1,4 @@
-package main.de.bogin.onitamaengine.board
+package de.bogin.onitamaengine.board
 
 data class BoardConfiguration(
     val width:Int,

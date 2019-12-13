@@ -1,4 +1,4 @@
-package main.de.bogin.onitamaengine.movement
+package de.bogin.onitamaengine.movement
 
 abstract class MovementCard (
     val name:String,
