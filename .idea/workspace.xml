@@ -153,6 +153,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576260994248" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576279881159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279881159" />
     <state x="739" y="172" width="445" height="696" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1576244281304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -161,38 +165,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576262846812" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1576276951748">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1576279770904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576276951748" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1576276951748">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279770904" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1576279770904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576276951748" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1576276951748">
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279770904" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1576279770903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576276951748" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1576276951748">
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279770903" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1576279770904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576276951748" />
-    <state width="1860" height="348" key="GridCell.Tab.1.bottom" timestamp="1576274784050">
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279770904" />
+    <state width="1860" height="348" key="GridCell.Tab.1.bottom" timestamp="1576278583949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576274784050" />
-    <state width="1860" height="348" key="GridCell.Tab.1.center" timestamp="1576274784050">
+    <state width="1860" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278583949" />
+    <state width="1860" height="348" key="GridCell.Tab.1.center" timestamp="1576278583949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576274784050" />
-    <state width="1860" height="348" key="GridCell.Tab.1.left" timestamp="1576274784049">
+    <state width="1860" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278583949" />
+    <state width="1860" height="348" key="GridCell.Tab.1.left" timestamp="1576278583949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576274784049" />
-    <state width="1860" height="348" key="GridCell.Tab.1.right" timestamp="1576274784050">
+    <state width="1860" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278583949" />
+    <state width="1860" height="348" key="GridCell.Tab.1.right" timestamp="1576278583949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576274784050" />
+    <state width="1860" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278583949" />
     <state x="625" y="218" width="680" height="603" key="NewModule_or_Project.wizard" timestamp="1576261351820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -221,10 +225,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="222" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576253082612" />
-    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog" timestamp="1576271047338">
+    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog" timestamp="1576278122329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576271047338" />
+    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278122329" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576256855072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
