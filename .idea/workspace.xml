@@ -44,11 +44,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="de.bogin.onitamaengine.board" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="de.bogin.onitamaengine.movement" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="de.bogin.onitamaengine.board" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.bogin.onitamaengine.board" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="de.bogin.onitamaengine.movement" />
@@ -165,54 +168,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576262846812" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1576279770904">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1576361224571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279770904" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1576279770904">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576361224571" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1576361224570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279770904" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1576279770903">
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576361224570" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1576361224570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279770903" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1576279770904">
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576361224570" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1576361224570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279770904" />
-    <state width="1860" height="348" key="GridCell.Tab.1.bottom" timestamp="1576278583949">
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576361224570" />
+    <state width="1860" height="348" key="GridCell.Tab.1.bottom" timestamp="1576281654428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278583949" />
-    <state width="1860" height="348" key="GridCell.Tab.1.center" timestamp="1576278583949">
+    <state width="1860" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576281654428" />
+    <state width="1860" height="348" key="GridCell.Tab.1.center" timestamp="1576281654427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278583949" />
-    <state width="1860" height="348" key="GridCell.Tab.1.left" timestamp="1576278583949">
+    <state width="1860" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576281654427" />
+    <state width="1860" height="348" key="GridCell.Tab.1.left" timestamp="1576281654427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278583949" />
-    <state width="1860" height="348" key="GridCell.Tab.1.right" timestamp="1576278583949">
+    <state width="1860" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576281654427" />
+    <state width="1860" height="348" key="GridCell.Tab.1.right" timestamp="1576281654427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278583949" />
+    <state width="1860" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576281654427" />
     <state x="625" y="218" width="680" height="603" key="NewModule_or_Project.wizard" timestamp="1576261351820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="218" width="680" height="603" key="NewModule_or_Project.wizard/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576261351820" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1576263165852">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1576357556872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576263165852" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576261973095">
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576357556872" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576343985788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576261973095" />
-    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576262348810">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576343985788" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576357539325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576262348810" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576357539325" />
     <state x="-1680" y="21" width="1397" height="1005" key="dock-window-1" timestamp="1576271656718">
       <screen x="-1680" y="21" width="1680" height="1010" />
     </state>
@@ -225,10 +228,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="222" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576253082612" />
-    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog" timestamp="1576278122329">
+    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog" timestamp="1576354533762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576278122329" />
+    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576354533762" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576256855072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

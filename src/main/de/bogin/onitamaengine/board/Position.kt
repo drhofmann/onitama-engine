@@ -7,43 +7,60 @@ import de.bogin.onitamaengine.movement.MoveVector
 import de.bogin.onitamaengine.movement.MovementCard
 import java.util.stream.Collectors
 
-class Position (
+class Position(
     val boardConfiguration: BoardConfiguration,
-    val movementOptions: Map<PlayerColor, List<MovementCard>>,
+    val movementOptions: Map<PlayerColor, Set<MovementCard>>,
     var activePlayer: PlayerColor,
-    val pieces: Map<PlayerColor, List<Piece>>
+    val pieces: Map<PlayerColor, Set<Piece>>
 ) {
 
     fun doMove(move: Move):Position {
+        validateMove(move)
         val newMovementOptions = updateMovementCards(move)
         val newPieceConfiguration = updatePieces(move)
         return Position(boardConfiguration, newMovementOptions, swapActivePlayer(), newPieceConfiguration)
     }
 
+    private fun validateMove(move: Move) {
+        if (move.activePlayer != activePlayer) {
+            throw IncorrectBoardStateException("A move by ${move.activePlayer} would be made but it is $activePlayer's turn")
+        }
+        if (!movementOptions[activePlayer]!!.contains(move.movementCard)) {
+            throw IncorrectBoardStateException("A move with ${move.movementCard} would be made but active player $activePlayer has following cards: ${movementOptions[move.activePlayer]}")
+        }
+        if (!pieces[activePlayer]!!.map{it.square}.contains(move.startSquare)) {
+            throw IncorrectBoardStateException("A move with a ${move.activePlayer} piece would be made but there is no piece of that player on square ${move.startSquare}. There are pieces on: ${pieces[activePlayer]!!.map{it.square}}"
+            )
+        }
+        if (pieces[activePlayer]!!.map{it.square}.contains(move.destinationSquare)) {
+            throw IncorrectBoardStateException("A move to ${move.destinationSquare} would be made but there is already a piece of player ${activePlayer}. There are pieces on: ${pieces[move.activePlayer]!!.map{it.square}}")
+        }
+    }
 
-    private fun updateMovementCards(move: Move): Map<PlayerColor, List<MovementCard>> {
-        val result = mutableMapOf<PlayerColor, List<MovementCard>>()
-        result[PlayerColor.NEUTRAL] = listOf(move.movementCard)
+
+    private fun updateMovementCards(move: Move): Map<PlayerColor, Set<MovementCard>> {
+        val result = mutableMapOf<PlayerColor, Set<MovementCard>>()
+        result[PlayerColor.NEUTRAL] = setOf(move.movementCard)
         result[swapActivePlayer()] = movementOptions[swapActivePlayer()]!!
         result[activePlayer] = movementOptions[activePlayer]?.minus(move.movementCard)?.plus(movementOptions[PlayerColor.NEUTRAL]!!)!!
         return result
     }
 
-    private fun updatePieces(move: Move): Map<PlayerColor, List<Piece>> {
-        val result = mutableMapOf<PlayerColor, List<Piece>>()
+    private fun updatePieces(move: Move): Map<PlayerColor, Set<Piece>> {
+        val result = mutableMapOf<PlayerColor, Set<Piece>>()
         result[swapActivePlayer()] = removePossibleOpposingPieceOnDestinationSquare(move.destinationSquare)
         result[activePlayer] = updatePieceThatMoved(move)
         return result
     }
 
 
-    private fun removePossibleOpposingPieceOnDestinationSquare(destinationSquare: Pair<Int, Int>): List<Piece> {
+    private fun removePossibleOpposingPieceOnDestinationSquare(destinationSquare: Pair<Int, Int>): Set<Piece> {
         val opposingPieces = pieces[swapActivePlayer()]!!
         return opposingPieces.stream()
-            .filter { it.square != destinationSquare}.collect(Collectors.toList())
+            .filter { it.square != destinationSquare}.collect(Collectors.toSet())
     }
 
-    private fun updatePieceThatMoved(move: Move): List<Piece> {
+    private fun updatePieceThatMoved(move: Move): Set<Piece> {
         val activePlayerPieces = pieces[activePlayer]!!
         activePlayerPieces.stream().filter{it.square==move.startSquare}.findFirst().get().square = move.destinationSquare
         return activePlayerPieces
@@ -54,17 +71,17 @@ class Position (
         else PlayerColor.BLUE
     }
 
-    fun generateValidMoves():List<Move> {
+    fun generateValidMoves():Set<Move> {
         val activePlayerPieces = pieces[activePlayer]
-        val moves = mutableListOf<Move>()
+        val moves = mutableSetOf<Move>()
         activePlayerPieces?.forEach {
             moves.addAll(generateMovesForOnePiece(it))
         }
-        return moves.filter { isMoveAllowed(it) }
+        return moves.filter { isMoveAllowed(it) }.toSet()
     }
 
-    fun generateMovesForOnePiece(piece: Piece):List<Move> {
-        val movesForOnePiece = mutableListOf<Move>()
+    fun generateMovesForOnePiece(piece: Piece):Set<Move> {
+        val movesForOnePiece = mutableSetOf<Move>()
         movementOptions[piece.owner]?.forEach{movementCard ->
             movementCard.movementVectors.forEach{moveVector ->
                 movesForOnePiece.add(createMoveConsideringPlayerColor(piece, moveVector, movementCard))
