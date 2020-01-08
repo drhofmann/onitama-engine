@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4678b95b-694a-4b7f-b5c8-a7579c9df484" name="Default Changelist" comment="" />
+    <list default="true" id="8dfcae31-2c8e-4832-afa3-06332569ac94" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,17 +11,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="JUnit5 Test Class" />
-        <option value="Kotlin Class" />
-        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="1UvjebiBpYiZOaStigHZaDsRc4F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1VzVSN9oImAi7uwIdSYjggtf3iT" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="flattenPackages" value="true" />
@@ -35,59 +35,69 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-test/1.3.61" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.43137255" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\GitHub\onitama-engine\src\test\kotlin\de\bogin\onitamaengine\domain" />
+      <recent name="C:\workspace\GitHub\onitama-engine\src\test\kotlin\de\bogin\onitamaengine" />
+      <recent name="C:\workspace\GitHub\onitama-engine\src\test\kotlin" />
+      <recent name="C:\workspace\GitHub" />
+      <recent name="C:\workspace\GitHub\onitama-engine\src\main\resources\vue\components" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="de.bogin.onitamaengine.movement" />
-    </key>
-    <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="de.bogin.onitamaengine.board" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="de.bogin.onitamaengine.board" />
+      <recent name="de.bogin.onitamaengine" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="de.bogin.onitamaengine.movement" />
+      <recent name="de.bogin.onitamaengine.board" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\GitHub\onitama-engine\src\main\de\bogin\onitamaengine" />
-      <recent name="C:\workspace\GitHub" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\GitHub\onitama-engine\src\main\resources\vue" />
+      <recent name="C:\workspace\GitHub\onitama-engine\src\main\kotlin\de\bogin\onitamaengine" />
+      <recent name="C:\workspace\GitHub\onitama-engine\src\main\kotlin\de\bogin\onitamaengine\board" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PositionTest">
+  <component name="RunManager" selected="Kotlin.de.bogin.onitamaengine.MainKt">
     <configuration name="PositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="onitama-engine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.bogin.onitamaengine.board.*" />
+          <option name="PATTERN" value="de.bogin.onitamaengine.domain.board.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.bogin.onitamaengine.board" />
-      <option name="MAIN_CLASS_NAME" value="de.bogin.onitamaengine.board.PositionTest" />
+      <option name="PACKAGE_NAME" value="de.bogin.onitamaengine.domain.board" />
+      <option name="MAIN_CLASS_NAME" value="de.bogin.onitamaengine.domain.board.PositionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="de.bogin.onitamaengine.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="onitama-engine" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AppKt" />
+      <option name="MAIN_CLASS_NAME" value="de.bogin.onitamaengine.AppKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="de.bogin.onitamaengine.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="onitama-engine" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="de.bogin.onitamaengine.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,8 +105,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.de.bogin.onitamaengine.MainKt" />
+        <item itemvalue="Kotlin.de.bogin.onitamaengine.AppKt" />
         <item itemvalue="JUnit.PositionTest" />
-        <item itemvalue="Kotlin.AppKt" />
       </list>
     </recent_temporary>
   </component>
@@ -117,134 +128,66 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4678b95b-694a-4b7f-b5c8-a7579c9df484" name="Default Changelist" comment="" />
-      <created>1576244059224</created>
+      <changelist id="8dfcae31-2c8e-4832-afa3-06332569ac94" name="Default Changelist" comment="" />
+      <created>1578255909042</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576244059224</updated>
+      <updated>1578255909042</updated>
     </task>
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-      <path value="$PROJECT_DIR$/../GitHub/onitama-engine" />
-    </ignored-roots>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="679" y="178" key="#App" timestamp="1576262756347">
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578431316876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="679" y="178" key="#App/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576262756347" />
-    <state x="679" y="178" key="#AppKt" timestamp="1576262823760">
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578431316876" />
+    <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578261482729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="679" y="178" key="#AppKt/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576262823760" />
-    <state x="439" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576262931470">
+    <state x="602" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578261482729" />
+    <state x="739" y="172" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1578257110900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="439" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576262931470" />
-    <state x="100" y="100" width="1720" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576275871774">
+    <state x="739" y="172" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578257110900" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578512760520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="100" y="100" width="1720" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576275871774" />
-    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576262730020">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578512760520" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578514473139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576262730020" />
-    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576260994248">
+    <state width="1620" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.21.1680.1010@-1680.21.1680.1010" timestamp="1578511706996" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578514473139" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578514473139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576260994248" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576279881159">
+    <state width="1620" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.21.1680.1010@-1680.21.1680.1010" timestamp="1578511706996" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578514473139" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578514473139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576279881159" />
-    <state x="739" y="172" width="445" height="696" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1576244281304">
+    <state width="1620" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.21.1680.1010@-1680.21.1680.1010" timestamp="1578511706995" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578514473139" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578514473139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="172" width="445" height="696" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576244281304" />
-    <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1576262846812">
+    <state width="1620" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.21.1680.1010@-1680.21.1680.1010" timestamp="1578511706996" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578514473139" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1578513903365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576262846812" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1576361224571">
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578513903365" />
+    <state x="440" y="94" width="1277" height="852" key="SettingsEditor" timestamp="1578513929529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576361224571" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1576361224570">
+    <state x="440" y="94" width="1277" height="852" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578513929529" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578511806054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576361224570" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1576361224570">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578511806054" />
+    <state x="783" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578513620913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576361224570" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1576361224570">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576361224570" />
-    <state width="1860" height="348" key="GridCell.Tab.1.bottom" timestamp="1576281654428">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576281654428" />
-    <state width="1860" height="348" key="GridCell.Tab.1.center" timestamp="1576281654427">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576281654427" />
-    <state width="1860" height="348" key="GridCell.Tab.1.left" timestamp="1576281654427">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576281654427" />
-    <state width="1860" height="348" key="GridCell.Tab.1.right" timestamp="1576281654427">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1860" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576281654427" />
-    <state x="625" y="218" width="680" height="603" key="NewModule_or_Project.wizard" timestamp="1576261351820">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="625" y="218" width="680" height="603" key="NewModule_or_Project.wizard/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576261351820" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1576357556872">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576357556872" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576343985788">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576343985788" />
-    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576357539325">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576357539325" />
-    <state x="-1680" y="21" width="1397" height="1005" key="dock-window-1" timestamp="1576271656718">
-      <screen x="-1680" y="21" width="1680" height="1010" />
-    </state>
-    <state x="-1680" y="21" width="1397" height="1005" key="dock-window-1/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576271656718" />
-    <state x="606" y="125" width="707" height="789" key="find.popup" timestamp="1576258140251">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="606" y="125" width="707" height="789" key="find.popup/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576258140251" />
-    <state x="731" y="222" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1576253082612">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="222" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576253082612" />
-    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog" timestamp="1576354533762">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1106" y="126" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576354533762" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576256855072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1576256855072" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar!/org/hamcrest/MatcherAssert.class</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="783" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/-1680.21.1680.1010@0.0.1920.1040" timestamp="1578513620913" />
   </component>
 </project>
